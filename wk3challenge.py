@@ -1,7 +1,7 @@
 import os
 import csv
 
-PyBank_csv = "/Users/wz/Desktop/DA_Bootcamp/week3_Python/wk3challenge/PyBank/Resources/budget_data.csv"
+PyBank_csv = "PyBank/Resources/budget_data.csv"
 
 with open (PyBank_csv, "r") as read:
     csv_read = csv.reader(read, delimiter=",")
@@ -11,6 +11,7 @@ print ("Financial Analysis")
 print ('-------------------------------------')
 
 # total number of months in the dataset
+
 
 
 
